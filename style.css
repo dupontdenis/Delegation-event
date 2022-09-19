@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 40vw);
+    grid-gap: 2vw;
+    list-style: none;
+    justify-content: center;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-gap: 2vw;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 10vw;
+  }
+  
+  p {
+    background: black;
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+    margin:0;
+  }
+  
